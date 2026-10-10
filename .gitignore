@@ -1,0 +1,70 @@
+# Создано с помощью https://www.toptal.com/developers/gitignore/api/windows,microsoftoffice,visualstudiocode
+# Редактировать на https://www.toptal.com/developers/gitignore?templates=windows,microsoftoffice,visualstudiocode
+
+### MicrosoftOffice ###
+*.tmp
+
+# Временный файл Word
+~$*.doc*
+
+# Файл автоматического резервного копирования Word
+Резервная копия *.doc*
+
+# Временный файл Excel
+~$*.xls*
+
+# Файл резервной копии Excel
+*.xlk
+
+# Временные файлы PowerPoint
+~$*.ppt*
+
+# Временные файлы автосохранения Visio
+*.~vsd*
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Локальная история для Visual Studio Code
+.history/
+
+# Собранные расширения Visual Studio Code
+*.vsix
+
+### Патч VisualStudioCode ###
+# Игнорировать всю локальную историю файлов
+.history
+.ionide
+
+### Windows ###
+# Файлы кэша миниатюр Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Файл дампа
+*.stackdump
+
+# Файл конфигурации папки
+[Dd]esktop.ini
+
+# Корзина, используемая в общих файловых ресурсах
+$RECYCLE.BIN/
+
+# Файлы установщика Windows
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Ярлыки Windows
+*.lnk
+
+# Конец https://www.toptal.com/developers/gitignore/api/windows,microsoftoffice,visualstudiocode
